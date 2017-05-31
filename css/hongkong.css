@@ -260,13 +260,22 @@ body {
 .bshare-custom.icon-medium {
     font-size: 14px;
     line-height: 20px !important;
+    display: flex;
+    justify-content: space-between;
 }
 .bshare-custom {
     font-size: 13px;
     line-height: 16px !important;
 }
 .bshare-custom.icon-medium .bshare-weixin {
-    background: url('../images/weixin.gif') no-repeat;
+    background: url('../images/weixin.gif') no-repeat center center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.bshare-custom.icon-medium>a{
+    width: 25px;
+    height: 25px;
     display: inline-block;
 }
 .tkp_con_xg {
